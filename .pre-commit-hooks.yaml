@@ -1,0 +1,6 @@
+---
+- id: inject_module_names
+  name: Inject module names
+  entry: scripts/inject_module_names.py
+  language: python
+  stages: [prepare-commit-msg]
